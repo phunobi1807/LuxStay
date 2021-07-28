@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxstay Travel</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+
+   
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>L</span>uxstay</a>
+
+        <nav class="navbar">
+            <a href="#home">Trang Chủ</a>
+            <a href="#book">Đặt phòng</a>
+            <a href="#packages">Các gói</a>
+            <a href="#services">Dịch Vụ</a>
+            <a href="#gallery">giới thiệu</a>
+            <a href="#review">Đánh giá</a>
+            <a href="#contact">Liên hệ</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="tìm kiếm...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>đăng nhập</h3>
+            <input type="email" class="box" placeholder="nhập email">
+            <input type="password" class="box" placeholder="nhập mật khẩu">
+            <input type="submit" value="đăng nhập ngay" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Lưu mật khẩu</label>
+            <p>quên mật khẩu? <a href="#">chọn</a></p>
+            <p>chưa có tài khoản? <a href="#">đăng kí ngay</a></p>
+        </form>
+
+    </div>
+
+
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>chào mừng đến với luxstay</h3>
+            <p>tìm homestay không khó</p>
+            <a href="#" class="btn">đặt ngay</a>
+        </div>
+
+    </section>
+
+
+    <section class="book" id="book">
+
+        <h1 class="heading">
+            <span>đ</span>
+            <span>ặ</span>
+            <span>t</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>g</span>
+            <span>a</span>
+            <span>y</span>
+
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="./images/book-img.svg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>địa điểm</h3>
+                    <input type="text" placeholder="nhập tên địa điểm">
+                </div>
+                <div class="inputBox">
+                    <h3>số lượng người</h3>
+                    <input type="number" placeholder="nhập số lượng người">
+                </div>
+                <div class="inputBox">
+                    <h3>ngày đến</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>ngày đi</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="đặt phòng ngay">
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>đ</span>
+            <span>ị</span>
+            <span>a</span>
+            <span class="space"></span>
+            <span>đ</span>
+            <span>i</span>
+            <span>ể</span>
+            <span>m</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./images/hanoi.png" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> hà nội </h3>
+                    <p>Trải nghiệm không gian thoáng đãng cho chuyến đi ngay gần Hà Nội</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="#" class="btn">đặt ngay</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/hcm.png" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Sài Gòn </h3>
+                    <p>Những căn homestay có 01 phòng ngủ tại sài gòn có thể đặt nhanh chóng</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $70.00 <span>$130.00</span> </div>
+                    <a href="#" class="btn">đặt ngay</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/vungtau.png" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> vũng tàu </h3>
+                    <p>Những căn biệt thự có hồ bơi dành cho kỳ nghỉ của bạn tại Vũng Tàu</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $110.00 <span>$220.00</span> </div>
+                    <a href="#" class="btn">đặt ngay</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/dalat.png" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> đà lạt </h3>
+                    <p>Không gian lãng mạn dành cho cặp đôi tại trung tâm đà lạt!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $200.00 <span>$300.00</span> </div>
+                    <a href="#" class="btn">đặt ngay</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/dânng.png" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> đà nẵng </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $150.00 <span>$400.00</span> </div>
+                    <a href="#" class="btn">đặt ngay</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/dânng.png" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> đà nẵng </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="#" class="btn">đặt ngay</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>d</span>
+            <span>ị</span>
+            <span>c</span>
+            <span>h</span>
+            <span class="space"></span>
+            <span>v</span>
+            <span>ụ</span>
+        </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Khách sạn</h3>
+                <p>Cung cấp cho khách hàng các mẫu khách sạn 5 sao hoặc các loại khách sạn giá rẻ !</p>
+               
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Ăn uống</h3>
+                <p>Nhiều nhà hàng 5 sao được bố trí theo kiểu Pháp nằm tại giữa lòng Hà Nội !</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>vòng quanh thế giới</h3>
+                <p>Một chuyến đi trải nghiệm các nước tại Châu Âu theo yêu cầu của quý khách !</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>du lịch nhanh</h3>
+                <p>Tham quan và tìm hiểu về các nước tại khu vực Châu Á qua chuyến du lịch 3 ngày 3 đêm !</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Leo núi</h3>
+                <p>Quý khách có thể tự mình chinh phục phục đỉnh Fansipan với độ cao 3.143 m - ngọn núi cao nhất Việt Nam !</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>n</span>
+            <span>ổ</span>
+            <span>i</span>
+            <span>b</span>
+            <span>ậ</span>
+            <span>t</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./images/g-1.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/g-2.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/g-3.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/g-4.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/g-5.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/g-6.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/g-7.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/g-8.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/g-9.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./images/pic1.png" alt="">
+                        <h3>john deo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt
+                            fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias
+                            consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./images/pic2.png" alt="">
+                        <h3>john deo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt
+                            fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias
+                            consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./images/pic3.png" alt="">
+                        <h3>john deo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt
+                            fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias
+                            consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./images/pic4.png" alt="">
+                        <h3>john deo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt
+                            fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias
+                            consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="./images/contact-img.svg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+
+        </div>
+
+    </section>
+
+   
+    <section class="brand-container">
+
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/6.jpg" alt=""></div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas magni pariatur est
+                    accusantium voluptas enim nemo facilis sit debitis.</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">japan</a>
+                <a href="#">france</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit"> created by <span> mr. web designer </span> | all rights reserved! </h1>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
